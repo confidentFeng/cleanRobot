@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/toolsetimag/add.png</file>
+        <file>image/toolsetimag/add1.png</file>
+        <file>image/toolsetimag/back_board.png</file>
+        <file>image/toolsetimag/close.png</file>
+        <file>image/toolsetimag/less.png</file>
+        <file>image/toolsetimag/less1.png</file>
+        <file>image/toolsetimag/lineedit_board.png</file>
+        <file>image/toolsetimag/ok.png</file>
+    </qresource>
+</RCC>

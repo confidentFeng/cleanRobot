@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cleanW</class>
+ <widget class="QDialog" name="cleanW">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>宋体</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>984</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox_2
+{
+	border-image: url(:/new/prefix1/image/cleanimag/back_board1.png);
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="scheVal_label">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>216</x>
+      <y>25</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(76, 76, 76);</string>
+    </property>
+    <property name="text">
+     <string>100%</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="returnMainButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>27</y>
+      <width>16</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/cleanimag/return.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="schedule_label">
+    <property name="geometry">
+     <rect>
+      <x>176</x>
+      <y>27</y>
+      <width>26</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ele_label">
+    <property name="geometry">
+     <rect>
+      <x>305</x>
+      <y>27</y>
+      <width>30</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="water_label">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>20</y>
+      <width>44</width>
+      <height>44</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="time_label">
+    <property name="geometry">
+     <rect>
+      <x>565</x>
+      <y>27</y>
+      <width>26</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/cleanimag/time.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="reach_label">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>27</y>
+      <width>26</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/cleanimag/status.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="eleVal_label">
+    <property name="geometry">
+     <rect>
+      <x>351</x>
+      <y>25</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(76, 76, 76);</string>
+    </property>
+    <property name="text">
+     <string>100%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="waterVal_label">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>25</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(76, 76, 76);</string>
+    </property>
+    <property name="text">
+     <string>100%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timeVal_label">
+    <property name="geometry">
+     <rect>
+      <x>605</x>
+      <y>25</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(76, 76, 76);</string>
+    </property>
+    <property name="text">
+     <string>100%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="status_label">
+    <property name="geometry">
+     <rect>
+      <x>734</x>
+      <y>25</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(76, 76, 76);</string>
+    </property>
+    <property name="text">
+     <string>已到达加水点</string>
+    </property>
+   </widget>
+   <zorder>status_label</zorder>
+   <zorder>scheVal_label</zorder>
+   <zorder>returnMainButton</zorder>
+   <zorder>schedule_label</zorder>
+   <zorder>ele_label</zorder>
+   <zorder>water_label</zorder>
+   <zorder>time_label</zorder>
+   <zorder>reach_label</zorder>
+   <zorder>eleVal_label</zorder>
+   <zorder>timeVal_label</zorder>
+   <zorder>waterVal_label</zorder>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>628</y>
+     <width>430</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox
+{
+	border-image: url(:/new/prefix1/image/cleanimag/key_board.png);
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="positionButton">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>18</y>
+      <width>43</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/cleanimag/reset.png)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/cleanimag/reset.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/cleanimag/reset1.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lockButton">
+    <property name="geometry">
+     <rect>
+      <x>194</x>
+      <y>18</y>
+      <width>47</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/cleanimag/lock.png)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/cleanimag/lock.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/cleanimag/lock1.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>38</width>
+      <height>44</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/cleanimag/start.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="startLabel">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>78</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(76, 76, 76);</string>
+    </property>
+    <property name="text">
+     <string>开始</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lockLabel">
+    <property name="geometry">
+     <rect>
+      <x>194</x>
+      <y>78</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(76, 76, 76);</string>
+    </property>
+    <property name="text">
+     <string>锁屏</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="positonLabel">
+    <property name="geometry">
+     <rect>
+      <x>316</x>
+      <y>78</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(76, 76, 76);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string>重定位</string>
+    </property>
+   </widget>
+   <zorder>startLabel</zorder>
+   <zorder>positionButton</zorder>
+   <zorder>lockButton</zorder>
+   <zorder>startButton</zorder>
+   <zorder>lockLabel</zorder>
+   <zorder>positonLabel</zorder>
+  </widget>
+  <widget class="QPushButton" name="resetBoardButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>638</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/cleanimag/return_start.png)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/cleanimag/return_start.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/cleanimag/return_start1.png)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addBoardButton">
+   <property name="geometry">
+    <rect>
+     <x>944</x>
+     <y>110</y>
+     <width>60</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/cleanimag/add.png)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/cleanimag/add.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/cleanimag/add1.png)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lessBoardButton">
+   <property name="geometry">
+    <rect>
+     <x>944</x>
+     <y>190</y>
+     <width>60</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/cleanimag/less.png)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/cleanimag/less.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/cleanimag/less1.png)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>groupBox</zorder>
+  <zorder>resetBoardButton</zorder>
+  <zorder>addBoardButton</zorder>
+  <zorder>lessBoardButton</zorder>
+  <zorder>groupBox_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

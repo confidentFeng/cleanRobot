@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/mainimag/back_board1.png</file>
+        <file>image/mainimag/board_img.png</file>
+        <file>image/mainimag/more.png</file>
+        <file>image/mainimag/return.png</file>
+        <file>image/mainimag/tool.png</file>
+        <file>image/mainimag/power.jpg</file>
+        <file>image/mainimag/schedule.jpg</file>
+        <file>image/mainimag/status.jpg</file>
+        <file>image/mainimag/time.jpg</file>
+        <file>image/mainimag/clearn.png</file>
+        <file>image/mainimag/water.png</file>
+        <file>image/mainimag/water1.png</file>
+    </qresource>
+</RCC>

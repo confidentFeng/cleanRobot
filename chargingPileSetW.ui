@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChargingPileSetW</class>
+ <widget class="QDialog" name="ChargingPileSetW">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>宋体</family>
+   </font>
+  </property>
+  <widget class="QGroupBox" name="titleGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>980</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#titleGroupBox
+{
+border-image: url(:/new/prefix1/image/chargingpilesetimag/back_board1.png);
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <widget class="QPushButton" name="returnMoreButton">
+    <property name="geometry">
+     <rect>
+      <x>26</x>
+      <y>27</y>
+      <width>16</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/chargingpilesetimag/return.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="titleLabel">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>11</y>
+      <width>331</width>
+      <height>58</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>35</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(76, 76, 76);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="text">
+     <string>充电桩位置设置</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="setGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>180</y>
+     <width>270</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#setGroupBox
+{
+	border-image: url(:/new/prefix1/image/chargingpilesetimag/back_board.png);
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QGroupBox" name="chooseGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>221</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="toolTipDuration">
+     <number>-4</number>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#chooseGroupBox
+{
+border-image: url(:/new/prefix1/image/chargingpilesetimag/ground_board.png);
+}</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="setCurrPointButton">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>1</y>
+       <width>110</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>宋体</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 210, 255);
+background-color:transparent;</string>
+     </property>
+     <property name="text">
+      <string>设当前点</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="manualSetButton">
+     <property name="geometry">
+      <rect>
+       <x>111</x>
+       <y>0</y>
+       <width>110</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>宋体</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/new/prefix1/image/chargingpilesetimag/keyboard.png);
+color: rgb(255, 255, 255);
+background-color:transparent;</string>
+     </property>
+     <property name="text">
+      <string>手动调节</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 210, 255);</string>
+    </property>
+    <property name="text">
+     <string>坐标显示</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="okButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>250</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 210, 255);
+background-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancelButton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>250</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 210, 255);
+background-color:transparent;</string>
+    </property>
+    <property name="text">
+     <string>取消</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="xAxisLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(102, 102, 102);</string>
+    </property>
+    <property name="text">
+     <string>X 轴</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="yAxisLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(102, 102, 102);</string>
+    </property>
+    <property name="text">
+     <string>Y 轴</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addxButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>130</y>
+      <width>24</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/chargingpilesetimag/addmin.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/chargingpilesetimag/addmin1.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lessxButton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>130</y>
+      <width>24</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/chargingpilesetimag/lessmin.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/chargingpilesetimag/lessmin1.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addyButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>190</y>
+      <width>24</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/chargingpilesetimag/addmin.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/chargingpilesetimag/addmin1.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lessyButton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>190</y>
+      <width>24</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/chargingpilesetimag/lessmin.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/chargingpilesetimag/lessmin1.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="xLabel">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>130</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="yLabel">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>190</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="resetBoardButton">
+   <property name="geometry">
+    <rect>
+     <x>934</x>
+     <y>354</y>
+     <width>70</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/chargingpilesetimag/reset.png)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/chargingpilesetimag/reset.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/chargingpilesetimag/reset1.png)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addBoardButton">
+   <property name="geometry">
+    <rect>
+     <x>934</x>
+     <y>176</y>
+     <width>70</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/chargingpilesetimag/add.png)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/chargingpilesetimag/add.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/chargingpilesetimag/add1.png)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lessBoardButton">
+   <property name="geometry">
+    <rect>
+     <x>934</x>
+     <y>265</y>
+     <width>70</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/chargingpilesetimag/less.png)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/chargingpilesetimag/less.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/chargingpilesetimag/less1.png)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

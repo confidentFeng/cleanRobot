@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/cleanimag/back_board1.png</file>
+        <file>image/cleanimag/key_board.png</file>
+        <file>image/cleanimag/lock.png</file>
+        <file>image/cleanimag/reset.png</file>
+        <file>image/cleanimag/return_start.png</file>
+        <file>image/cleanimag/schedule.png</file>
+        <file>image/cleanimag/start.png</file>
+        <file>image/cleanimag/status.png</file>
+        <file>image/cleanimag/time.png</file>
+        <file>image/cleanimag/water.png</file>
+        <file>image/cleanimag/return.png</file>
+        <file>image/cleanimag/power.png</file>
+        <file>image/cleanimag/max.png</file>
+        <file>image/cleanimag/min.png</file>
+        <file>image/cleanimag/return_start1.png</file>
+        <file>image/cleanimag/add.png</file>
+        <file>image/cleanimag/add1.png</file>
+        <file>image/cleanimag/less.png</file>
+        <file>image/cleanimag/less1.png</file>
+        <file>image/cleanimag/lock1.png</file>
+        <file>image/cleanimag/reset1.png</file>
+        <file>image/cleanimag/start1.png</file>
+        <file>image/cleanimag/water1.png</file>
+        <file>image/cleanimag/stop.png</file>
+    </qresource>
+</RCC>

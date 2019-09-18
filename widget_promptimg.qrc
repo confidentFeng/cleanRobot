@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/widget_promptimag/bigback_board.png</file>
+        <file>image/widget_promptimag/cancel.png</file>
+        <file>image/widget_promptimag/ok.png</file>
+    </qresource>
+</RCC>

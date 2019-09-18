@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/generatroadimg/back_board.png</file>
+        <file>image/generatroadimg/back_board1.png</file>
+        <file>image/generatroadimg/clean_mode.png</file>
+        <file>image/generatroadimg/clean_mode1.png</file>
+        <file>image/generatroadimg/return.png</file>
+        <file>image/generatroadimg/show_mode.png</file>
+        <file>image/generatroadimg/show_mode1.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/chargingpilesetimag/addmin.png</file>
+        <file>image/chargingpilesetimag/back_board.png</file>
+        <file>image/chargingpilesetimag/back_board1.png</file>
+        <file>image/chargingpilesetimag/ground_board.png</file>
+        <file>image/chargingpilesetimag/keyboard.png</file>
+        <file>image/chargingpilesetimag/lessmin.png</file>
+        <file>image/chargingpilesetimag/return.png</file>
+        <file>image/chargingpilesetimag/add.png</file>
+        <file>image/chargingpilesetimag/add1.png</file>
+        <file>image/chargingpilesetimag/less.png</file>
+        <file>image/chargingpilesetimag/less1.png</file>
+        <file>image/chargingpilesetimag/reset.png</file>
+        <file>image/chargingpilesetimag/reset1.png</file>
+        <file>image/chargingpilesetimag/point.png</file>
+        <file>image/chargingpilesetimag/addmin1.png</file>
+        <file>image/chargingpilesetimag/lessmin1.png</file>
+    </qresource>
+</RCC>

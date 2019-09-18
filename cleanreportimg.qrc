@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/cleanrportimag/allci.png</file>
+        <file>image/cleanrportimag/allclean.png</file>
+        <file>image/cleanrportimag/alltime.png</file>
+        <file>image/cleanrportimag/back_board1.png</file>
+        <file>image/cleanrportimag/return.png</file>
+        <file>image/cleanrportimag/Details.png</file>
+    </qresource>
+</RCC>

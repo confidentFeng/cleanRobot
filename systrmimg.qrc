@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/systemimag/as.png</file>
+        <file>image/systemimag/as1.png</file>
+        <file>image/systemimag/back_board1.png</file>
+        <file>image/systemimag/reset.png</file>
+        <file>image/systemimag/reset1.png</file>
+        <file>image/systemimag/return.png</file>
+        <file>image/systemimag/shut_down.png</file>
+        <file>image/systemimag/shut_down1.png</file>
+        <file>image/systemimag/back_board.png</file>
+    </qresource>
+</RCC>

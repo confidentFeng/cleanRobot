@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SystemW</class>
+ <widget class="QDialog" name="SystemW">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>宋体</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#SystemW
+{
+	border-image: url(:/new/prefix1/image/systemimag/back_board.png);
+}
+</string>
+  </property>
+  <widget class="QGroupBox" name="titleGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>980</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#titleGroupBox
+{
+border-image: url(:/new/prefix1/image/systemimag/back_board1.png);
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <widget class="QPushButton" name="returnMoreButton">
+    <property name="geometry">
+     <rect>
+      <x>26</x>
+      <y>27</y>
+      <width>16</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/systemimag/return.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="titleLabel">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>11</y>
+      <width>101</width>
+      <height>58</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>35</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(76, 76, 76);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="text">
+     <string>系统</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="shutdownButton">
+   <property name="geometry">
+    <rect>
+     <x>362</x>
+     <y>252</y>
+     <width>300</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/systemimag/shut_down.png)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/systemimag/shut_down.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/systemimag/shut_down1.png)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rebootButton">
+   <property name="geometry">
+    <rect>
+     <x>362</x>
+     <y>352</y>
+     <width>300</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/systemimag/reset.png)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/systemimag/reset.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/systemimag/reset1.png)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="aboutButton">
+   <property name="geometry">
+    <rect>
+     <x>362</x>
+     <y>452</y>
+     <width>300</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/systemimag/as.png)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/systemimag/as.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/systemimag/as1.png)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

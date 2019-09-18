@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/widget_wainmimag/bigback_board.png</file>
+        <file>image/widget_wainmimag/ok_board.png</file>
+        <file>image/widget_wainmimag/ok_board1.png</file>
+    </qresource>
+</RCC>

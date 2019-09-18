@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/lockscreedimag/back_board1.png</file>
+        <file>image/lockscreedimag/return.png</file>
+        <file>image/lockscreedimag/back_board.png</file>
+        <file>image/lockscreedimag/chang_pass.png</file>
+        <file>image/lockscreedimag/chang_pass1.png</file>
+        <file>image/lockscreedimag/lock_time.png</file>
+        <file>image/lockscreedimag/lock_time1.png</file>
+    </qresource>
+</RCC>

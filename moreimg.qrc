@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/moreimag/ad_mode.jpg</file>
+        <file>image/moreimag/back_board.png</file>
+        <file>image/moreimag/back_board1.png</file>
+        <file>image/moreimag/clean_report.jpg</file>
+        <file>image/moreimag/patch.jpg</file>
+        <file>image/moreimag/return.png</file>
+        <file>image/moreimag/set_lock.jpg</file>
+        <file>image/moreimag/Specific_point.jpg</file>
+        <file>image/moreimag/switch_map.jpg</file>
+        <file>image/moreimag/systems.png</file>
+        <file>image/moreimag/ad_mode1.jpg</file>
+        <file>image/moreimag/clean_report1.jpg</file>
+        <file>image/moreimag/patch1.jpg</file>
+        <file>image/moreimag/set_lock1.jpg</file>
+        <file>image/moreimag/Specific_point1.jpg</file>
+        <file>image/moreimag/switch_map1.jpg</file>
+        <file>image/moreimag/systems1.png</file>
+    </qresource>
+</RCC>

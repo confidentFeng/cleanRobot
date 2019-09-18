@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>moreW</class>
+ <widget class="QDialog" name="moreW">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>10</y>
+     <width>980</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox_2
+{
+	border-image: url(:/new/prefix1/image/moreimag/back_board1.png);
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <widget class="QPushButton" name="returnMainButton">
+    <property name="geometry">
+     <rect>
+      <x>26</x>
+      <y>27</y>
+      <width>16</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/cleanimag/return.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>11</y>
+      <width>111</width>
+      <height>58</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>35</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(76, 76, 76);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="text">
+     <string>更多</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>110</y>
+     <width>980</width>
+     <height>643</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox
+{
+	border-image: url(:/new/prefix1/image/moreimag/back_board.png);
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="genRoadButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>13</y>
+      <width>940</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/moreimag/patch.jpg)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/moreimag/patch.jpg)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/moreimag/patch1.jpg)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="switchMapButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>940</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/moreimag/switch_map.jpg)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/moreimag/switch_map.jpg)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/moreimag/switch_map1.jpg)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lockScreenButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>188</y>
+      <width>940</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/moreimag/set_lock.jpg)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/moreimag/set_lock.jpg)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/moreimag/set_lock1.jpg)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cleanReportButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>275</y>
+      <width>940</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/moreimag/clean_report.jpg)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/moreimag/clean_report.jpg)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/moreimag/clean_report1.jpg)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="adModeButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>363</y>
+      <width>940</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/moreimag/ad_mode.jpg)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/moreimag/ad_mode.jpg)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/moreimag/ad_mode1.jpg)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="spePointButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>449</y>
+      <width>940</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/moreimag/Specific_point.jpg)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/moreimag/Specific_point.jpg)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/moreimag/Specific_point1.jpg)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="systemButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>538</y>
+      <width>940</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/prefix1/image/moreimag/systems.png)}
+QPushButton:hover{border-image: url(:/new/prefix1/image/moreimag/systems.png)}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/moreimag/systems1.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>switchMapButton</zorder>
+   <zorder>lockScreenButton</zorder>
+   <zorder>cleanReportButton</zorder>
+   <zorder>adModeButton</zorder>
+   <zorder>spePointButton</zorder>
+   <zorder>systemButton</zorder>
+   <zorder>genRoadButton</zorder>
+  </widget>
+  <zorder>groupBox</zorder>
+  <zorder>groupBox_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

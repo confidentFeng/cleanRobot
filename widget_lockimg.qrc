@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/widget_lockimag/cancel.png</file>
+        <file>image/widget_lockimag/password_board.png</file>
+        <file>image/widget_lockimag/cancel1.png</file>
+        <file>image/widget_lockimag/ok.png</file>
+        <file>image/widget_lockimag/ok1.png</file>
+        <file>image/widget_wainmimag/bigback_board.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/aboutimag/back_board.png</file>
+        <file>image/aboutimag/back_board1.png</file>
+        <file>image/aboutimag/logo.png</file>
+        <file>image/aboutimag/return.png</file>
+    </qresource>
+</RCC>

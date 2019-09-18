@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/locktimeimag/back_board.png</file>
+        <file>image/locktimeimag/back_board1.png</file>
+        <file>image/locktimeimag/board.png</file>
+        <file>image/locktimeimag/data_board.png</file>
+        <file>image/locktimeimag/pbut_add.png</file>
+        <file>image/locktimeimag/pbut_add1.png</file>
+        <file>image/locktimeimag/pbut_less.png</file>
+        <file>image/locktimeimag/pbut_less1.png</file>
+        <file>image/locktimeimag/return.png</file>
+        <file>image/locktimeimag/ok1.png</file>
+        <file>image/locktimeimag/ok2.png</file>
+        <file>image/locktimeimag/ok.png</file>
+    </qresource>
+</RCC>

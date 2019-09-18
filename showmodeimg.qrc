@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/showmodeimag/aout.png</file>
+        <file>image/showmodeimag/aout1.png</file>
+        <file>image/showmodeimag/back_board1.png</file>
+        <file>image/showmodeimag/cancel.png</file>
+        <file>image/showmodeimag/group3.png</file>
+        <file>image/showmodeimag/group4.png</file>
+        <file>image/showmodeimag/group5.png</file>
+        <file>image/showmodeimag/manual.png</file>
+        <file>image/showmodeimag/manual1.png</file>
+        <file>image/showmodeimag/return.png</file>
+        <file>image/showmodeimag/return2.png</file>
+        <file>image/showmodeimag/group.png</file>
+        <file>image/showmodeimag/return3.png</file>
+        <file>image/showmodeimag/password_board.png</file>
+        <file>image/showmodeimag/add.png</file>
+        <file>image/showmodeimag/add1.png</file>
+        <file>image/showmodeimag/less.png</file>
+        <file>image/showmodeimag/less1.png</file>
+        <file>image/showmodeimag/reset.png</file>
+        <file>image/showmodeimag/reset1.png</file>
+        <file>image/showmodeimag/point.png</file>
+        <file>image/showmodeimag/ok.png</file>
+        <file>image/showmodeimag/ok1.png</file>
+        <file>image/showmodeimag/cancel1.png</file>
+    </qresource>
+</RCC>

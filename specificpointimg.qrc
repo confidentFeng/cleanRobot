@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/specificpointimag/add_water.png</file>
+        <file>image/specificpointimag/add_water1.png</file>
+        <file>image/specificpointimag/back_board.png</file>
+        <file>image/specificpointimag/back_board1.png</file>
+        <file>image/specificpointimag/chanrg_set.png</file>
+        <file>image/specificpointimag/chanrg_set1.png</file>
+        <file>image/specificpointimag/drain.png</file>
+        <file>image/specificpointimag/drain1.png</file>
+        <file>image/specificpointimag/return.png</file>
+    </qresource>
+</RCC>

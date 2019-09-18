@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/switchmapimag/mapicon.png</file>
+        <file>image/switchmapimag/pbut_return.png</file>
+        <file>image/switchmapimag/pbut_return1.png</file>
+        <file>image/switchmapimag/the_map.png</file>
+    </qresource>
+</RCC>

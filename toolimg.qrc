@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/toolimag/ad.png</file>
+        <file>image/toolimag/back_board.png</file>
+        <file>image/toolimag/back_board1.png</file>
+        <file>image/toolimag/brush.png</file>
+        <file>image/toolimag/brush_speed.png</file>
+        <file>image/toolimag/brush_speed1.png</file>
+        <file>image/toolimag/fan.png</file>
+        <file>image/toolimag/light.png</file>
+        <file>image/toolimag/pbut_close.png</file>
+        <file>image/toolimag/pbut_open.png</file>
+        <file>image/toolimag/return.png</file>
+        <file>image/toolimag/brush_up_dow.png</file>
+        <file>image/toolimag/water_up_dow.png</file>
+    </qresource>
+</RCC>
